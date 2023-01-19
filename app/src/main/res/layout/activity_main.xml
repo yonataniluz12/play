@@ -26,7 +26,6 @@
             android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#ff1111"
             android:text="Red" />
 
         <Space
@@ -38,8 +37,6 @@
             android:id="@+id/btn3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="go"
-            android:backgroundTint="#F0E68C"
             android:text="results" />
 
 
@@ -47,10 +44,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />
+
         <Button
             android:id="@+id/btn2"
             android:layout_width="match_parent"
-            android:backgroundTint="#3333cc"
             android:layout_height="wrap_content"
             android:text="Blue" />
 
